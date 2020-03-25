@@ -11,7 +11,6 @@ bool isPal(string s){
 }
 
 
-
 int main(){
 	string s;
 	cin >> s;
