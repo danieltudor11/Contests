@@ -9,14 +9,14 @@ bool isPal(string s){
 	}
 	return true;
 }
-		
+
 
 
 int main(){
 	string s;
 	cin >> s;
 	string result = "No";
-	
+
 	if (isPal(s)){
 		string s1 = s.substr(0, s.length() / 2);
 		if (isPal(s1)){

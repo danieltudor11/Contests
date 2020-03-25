@@ -6,17 +6,17 @@ int main(){
 	cin >> s;
 	int q;
 	cin >> q;
-	
+
 	bool rev = false;
-	
+
 	int instruction;
 	int f;
 	string s2;
 	string sr = s;
-	
+
 	while (q--){
 		cin >> instruction;
-		
+
 		if (instruction == 1){
 			rev = !rev;
 		}
@@ -43,14 +43,14 @@ int main(){
 				}
 			}
 		}
-	}	
-	
+	}
+
 	if (rev) {
 		cout << sr;
 		return 0;
 	}
-	
+
 	cout << s;
-	
+
 	return 0;
 }
