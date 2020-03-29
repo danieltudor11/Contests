@@ -1,5 +1,5 @@
 # Contests
-Code from various programming contests:
+Contest Name: Ranking (Score)
 
 AtCoder Beginner Contest 158: 4146/6992 (600/2100)
 
