@@ -1,5 +1,5 @@
 # Contests
-Contest Name: Ranking (Score)
+Contest Name: Ranking (Score/Max Score)
 
 AtCoder Beginner Contest 158: 4146/6992 (600/2100)
 
