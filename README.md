@@ -12,3 +12,7 @@ Google Kickstart 2020 Round A: 4974/10926 (23/100)
 AtCoder Beginner Contest 160: 4277/9649 (600/2100)
 
 LeetCode Weekly Contest 182: 3074/7784 (12/20)
+
+Google Code Jam Qualifying Round: 27580/40698 (42/100)
+
+Google Code Jam Round 1A:
