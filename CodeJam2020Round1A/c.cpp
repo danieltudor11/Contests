@@ -9,14 +9,11 @@ typedef pair<int, int> pi;
 #define pb push_back
 
 
-void solve(vector<vector<double> > v){
-	bool cont = true;
-	
+void solve(vector<vector<double> > v){	
 	int total = 0;
 	
 	vector<pi> pairs;
-	while(cont){		
-		cont = false;
+	while(1){		
 		for (unsigned i = 0; i < v.size(); i++){
 			for (unsigned j = 0; j < v[0].size(); j++){
 				total += v[i][j];
@@ -70,26 +67,20 @@ void solve(vector<vector<double> > v){
 					av = sum / num;
 				}
 				
-				//cout << v[i][j] << " " << av << " " << sum << " " << num << endl;
-				
 				if (av > v[i][j]){
 					pairs.pb(make_pair(i, j));
-					cont = true;
 				}
 			}
+		}		
+		if (!pairs.size()){
+			break;
 		}
-		//cout << "new" << endl;
-		
 		for (int i = 0; i < pairs.size(); i++){
 			v[pairs[i].first][pairs[i].second] = 0;
 		}
 		pairs.clear();
-		
 	}
-	
-
 	cout << total;
-
 }
 
 
