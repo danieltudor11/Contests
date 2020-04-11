@@ -15,4 +15,4 @@ LeetCode Weekly Contest 182: 3074/7784 (12/20)
 
 Google Code Jam Qualifying Round: 27580/40698 (42/100)
 
-Google Code Jam Round 1A:
+Google Code Jam Round 1A: 5223/9413 (24/100)
