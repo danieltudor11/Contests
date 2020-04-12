@@ -19,4 +19,4 @@ Google Code Jam Round 1A: 5223/9413 (24/100)
 
 LeetCode Weekly Contest 184: 7535/13661 (7/19)
 
-AtCoder Beginner Contest 162:   (600/2100)
+AtCoder Beginner Contest 162: 6750/10430 (600/2100)
