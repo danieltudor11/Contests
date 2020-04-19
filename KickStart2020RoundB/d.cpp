@@ -16,13 +16,9 @@ bool check(int col, int row, int l, int u, int r, int d){
 }
 
 double solve(int w, int h, int l, int u, int r, int d){
+	
 	vector<vector<double> > probs(h, vector<double>(w));
-	double res = 100;
-	
 	probs[0][0] = 100;
-	if (check(0,1,l,u,r,d)) res -= 50;
-	if (check(1,0,l,u,r,d)) res -= 50;
-	
 	
 	for (int i = 0; i < h; i++){
 		for (int j = 0; j < w; j++){
@@ -40,25 +36,10 @@ double solve(int w, int h, int l, int u, int r, int d){
 			if (j == w-1) up *= 2;
 			
 			probs[i][j] = (left + up) / 2;		
-			
-			
-			if (i != h-1 && check(i+1,j,l,u,r,d)){
-				res -= probs[i][j] / 2;
-				if (w == 1){
-					res -= probs[i][j] / 2;
-				}
-			}
-			if (j != w-1 && check(i,j+1,l,u,r,d)){
-				res -= probs[i][j] / 2;
-				if (h == 1){
-					res -= probs[i][j] / 2;
-				}
-			}
 		}
 	}
 	
-	
-	return res/100;
+	return probs[h-1][w-1]/100;
 }
 
 
