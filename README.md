@@ -25,6 +25,6 @@ LeetCode BiWeekly Contest 24: 3519/7729 (7/18)
 
 Google Kickstart 2020 Round B: 2980/9355 (46/100)
 
-LeetCode Weekly Contest 185: 2791/14200 (12/18)
+LeetCode Weekly Contest 185: 2801/14207 (12/18)
 
 Google Code Jam Round 1B:
