@@ -23,7 +23,7 @@ AtCoder Beginner Contest 162: 6750/10430 (600/2100)
 
 LeetCode BiWeekly Contest 24: 3519/7729 (7/18)
 
-Google Kickstart 2020 Round B:
+Google Kickstart 2020 Round B: 2980/9355 (46/100)
 
 LeetCode Weekly Contest 185:
 
