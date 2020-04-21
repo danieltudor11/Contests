@@ -42,6 +42,8 @@ string solve(ll x, ll y){
 	bool xneg = false, yneg = false;
 	string res = "";
 	
+	cout << endl;
+	
 	if (x < 0){
 		xneg = true;
 		x *= -1;
@@ -53,7 +55,7 @@ string solve(ll x, ll y){
 	
 	ll div = 2;
 	while (x || y){
-		//cout << div << " ";
+		cout << x << " " << y << "  step = " << div/2 << endl;
 		if (x%div && y%div){
 			return "IMPOSSIBLE";
 		}
@@ -119,8 +121,7 @@ string solve(ll x, ll y){
 				}
 			}
 		}
-		//cout << x << " " << y << " " << res << endl;
-		div *= 2;
+		div*=2;
 	}
 	
 
