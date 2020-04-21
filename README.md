@@ -27,4 +27,6 @@ Google Kickstart 2020 Round B: 2980/9355 (46/100)
 
 LeetCode Weekly Contest 185: 2801/14207 (12/18)
 
+CodeForces Round 636 (Div. 3): 
+
 Google Code Jam Round 1B: 3198/10201 (29/100)
