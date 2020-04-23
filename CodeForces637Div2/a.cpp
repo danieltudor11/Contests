@@ -10,14 +10,26 @@ typedef pair<int, int> pii;
 #define rep(i,a,b) for (int i = a; i < b; i++)
 
 
-int main(){
+void solve(){
+	int n,a,b,c,d;
+	cin >> n >> a >> b >> c >> d;
 	
+	if (n*(a-b) <= c+d && n*(a+b) >= c-d){
+		cout << "Yes" << endl;
+		return;
+	}
 	
+	cout << "No" << endl;
 	
-	
-	
-	
-	
+}
 
+
+int main(){
+	int t;
+	cin >> t;
+	
+	while (t--){
+		solve();
+	}
 	return 0;
 }

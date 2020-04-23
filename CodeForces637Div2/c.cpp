@@ -10,14 +10,22 @@ typedef pair<int, int> pii;
 #define rep(i,a,b) for (int i = a; i < b; i++)
 
 
-int main(){
+void solve(){
 	
 	
 	
 	
 	
 	
-	
+}
 
+
+int main(){
+	int t;
+	cin >> t;
+	
+	while (t--){
+		solve();
+	}
 	return 0;
 }

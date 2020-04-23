@@ -10,25 +10,23 @@ typedef pair<int, int> pii;
 #define rep(i,a,b) for (int i = a; i < b; i++)
 
 
-void solve(){
+pii solve(){
 	int n, k;
 	cin >> n >> k;
 	vi v(n);
-	vi peaks;
 	rep(i,0,n){
 		cin >> v[i];
-		if (i > 1 && v[i] < v[i-1] && v[i-1] > v[i-2]){
-			peaks.pb(i-1);
-		}
 	}
-	
 	
 	int mp = 0;
 	int bid = n+1;
-	for (int i = 0; i <= n-k; i++){
-		int count = 0;
-		for (int j = 0; j < (int)peaks.size(); j++){
-			if (peaks[j] > i && peaks[j] < i+k-1){
+	for (int i = 0; i <= max(0,n-k); i++){
+		int count = 0; 
+		for (int j = i+1; j < i+k-1; j++){
+			if (!j || j >= n-1){
+				continue;
+			}
+			if (v[j] > v[j-1] && v[j] > v[j+1]){
 				count++;
 			}
 		}
@@ -36,9 +34,12 @@ void solve(){
 			mp = count;
 			bid = i+1;
 		}
-		
 	}
-	cout << mp+1 << " " << bid << endl;
+	pii p;
+	p.first = mp+1;
+	p.second = bid;
+	
+	return p;
 	
 }
 
@@ -46,9 +47,15 @@ void solve(){
 int main(){
 	int t;
 	cin >> t;
+	int x = t;
 	
+	vector<pii> v;
 	while (t--){
-		solve();
+		v.pb(solve());
+	}
+	
+	for (int i = 0; i < x; i++){
+		cout << v[i].first << " " << v[i].second << endl;
 	}
 	return 0;
 }
