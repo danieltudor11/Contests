@@ -29,4 +29,4 @@ LeetCode Weekly Contest 185: 2801/14207 (12/18)
 
 Google Code Jam Round 1B: 3198/10201 (29/100)
 
-LeetCode Weekly Contest 186: 
+LeetCode Weekly Contest 186: 4461/11684 (7/18)
