@@ -30,3 +30,5 @@ LeetCode Weekly Contest 185: 2801/14207 (12/18)
 Google Code Jam Round 1B: 3198/10201 (29/100)
 
 LeetCode Weekly Contest 186: 4461/11684 (7/18)
+
+Google Code Jam Round 1C: 9247/10284 (19/100) (Solved problem 2 fully but just after comp ended)
