@@ -11,7 +11,8 @@ typedef pair<int, int> pii;
 
 
 void solve(int n, int d, vector<ll> v){
-	
+	if (d==2){
+		
 	
 	
 }
