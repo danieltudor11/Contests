@@ -10,6 +10,21 @@ typedef pair<int, int> pii;
 #define rep(i,a,b) for (int i = a; i < b; i++)
 
 int main(){
+	int n, m, x;
+	cin >> n >> m >> x;
+
+	vi costs(n);
+	vvi mat(n);
+
+	for (int i = 0; i < n; i++){
+		cin >> costs[i];
+		for (int j = 0; j < m; j++){
+			int temp;
+			cin >> temp;
+			mat[i].pb(temp);
+		}
+	}
+
 	
 
 	return 0;
