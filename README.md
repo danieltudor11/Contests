@@ -37,4 +37,4 @@ LeetCode BiWeekly Contest 25: 963/7699 (12/19)
 
 LeetCode Weekly Contest 187: 3942/12349 (7/19)
 
-LeetCode Weekly Contest 188: 
+LeetCode Weekly Contest 188: 3642/12714 (7/19)
