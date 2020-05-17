@@ -41,4 +41,6 @@ LeetCode Weekly Contest 188: 3642/12714 (7/19)
 
 LeetCode BiWeekly Contest 26: 1384/5823 (12/19) (Solved last one for first time but TLE)
 
-LeetCode Weekly Contest 189:
+LeetCode Weekly Contest 189: 5876/13036 (7/19)
+
+Google Kickstart 2020 Round C:
