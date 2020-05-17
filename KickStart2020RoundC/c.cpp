@@ -31,7 +31,6 @@ void solve(){
 
 		for (int i = 0; i < x; i++){
 			res += m[sum-(i*i)];
-				
 		}
 
 		m[sum]++;
