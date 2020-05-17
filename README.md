@@ -43,4 +43,4 @@ LeetCode BiWeekly Contest 26: 1384/5823 (12/19) (Solved last one for first time 
 
 LeetCode Weekly Contest 189: 5876/13036 (7/19)
 
-Google Kickstart 2020 Round C: 9231/10104 (10/100) (Solved all 4 sample problems but only 1 single test set :( )
+Google Kickstart 2020 Round C: 9231/10104 (10/100) (Solved all 4 sample problems but only 1 single test set)
