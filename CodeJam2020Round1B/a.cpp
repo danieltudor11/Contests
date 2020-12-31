@@ -38,6 +38,8 @@ void changeall(string& s){
 
 
 string solve(ll x, ll y){
+	ll ox = x;
+	ll oy = y;
 	if (x%2 == y%2) return "IMPOSSIBLE";
 	bool xneg = false, yneg = false;
 	string res = "";
@@ -55,7 +57,7 @@ string solve(ll x, ll y){
 	
 	ll div = 2;
 	while (x || y){
-		cout << x << " " << y << "  step = " << div/2 << endl;
+		cout << ox-x << " " << oy-y << "  step = " << div/2 << endl;
 		if (x%div && y%div){
 			return "IMPOSSIBLE";
 		}
