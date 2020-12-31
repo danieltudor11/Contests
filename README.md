@@ -46,3 +46,7 @@ LeetCode Weekly Contest 189: 5876/13036 (7/19)
 Google Kickstart 2020 Round C: 9231/10104 (10/100) (Solved all 4 sample problems but only 1 single test set)
 
 LeetCode BiWeekly Contest 27: 2037/7924 (12/18)
+
+LeetCode Weekly Contest 191: 2953/13283 (12/19)
+
+LeetCode Weekly Contst 192: 1566/13805 (12/18)
