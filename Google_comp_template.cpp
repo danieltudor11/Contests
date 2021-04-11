@@ -9,10 +9,16 @@ typedef pair<int, int> pii;
 #define pb push_back
 #define rep(i,a,b) for (int i = a; i < b; i++)
 
+void print_vec(vi v){
+	rep(i,0,(int)v.size()){
+		cout << v[i] << " ";
+	}
+	cout << endl;
+}
+
+
 
 void solve(){
-
-
 
 
 }
