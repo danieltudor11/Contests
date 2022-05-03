@@ -15,19 +15,11 @@ typedef pair<int, int> pii;
 
 void print_vec(vi v)
 {
-	rep(i, 0, (int)v.size())
-	{
-		cout << v[i] << " ";
-	}
-	cout << endl;
-}
-void print_vec_ll(vector<ll> v)
-{
-	rep(i, 0, (int)v.size())
-	{
-		cout << v[i] << " ";
-	}
-	cout << endl;
+    rep(i, 0, (int)v.size())
+    {
+        cout << v[i] << " ";
+    }
+    cout << endl;
 }
 
 void solve()
@@ -36,15 +28,15 @@ void solve()
 
 int main()
 {
-	int t;
-	cin >> t;
+    int t;
+    cin >> t;
 
-	rep(i, 1, t + 1)
-	{
-		cout << "Case #" << i << ": ";
-		solve();
-		cout << endl;
-	}
+    rep(i, 1, t + 1)
+    {
+        cout << "Case #" << i << ": ";
+        solve();
+        cout << endl;
+    }
 
-	return 0;
+    return 0;
 }

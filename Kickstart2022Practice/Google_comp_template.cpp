@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm>
-#include <iomanip>
 using namespace std;
 
 typedef long long ll;
@@ -14,14 +12,6 @@ typedef pair<int, int> pii;
 #define rep(i, a, b) for (int i = a; i < b; i++)
 
 void print_vec(vi v)
-{
-	rep(i, 0, (int)v.size())
-	{
-		cout << v[i] << " ";
-	}
-	cout << endl;
-}
-void print_vec_ll(vector<ll> v)
 {
 	rep(i, 0, (int)v.size())
 	{

@@ -1,8 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
-#include <iomanip>
 using namespace std;
 
 typedef long long ll;
@@ -21,17 +18,19 @@ void print_vec(vi v)
 	}
 	cout << endl;
 }
-void print_vec_ll(vector<ll> v)
-{
-	rep(i, 0, (int)v.size())
-	{
-		cout << v[i] << " ";
-	}
-	cout << endl;
-}
 
 void solve()
 {
+	int n, m;
+	cin >> n >> m;
+	int s = 0;
+	rep(i, 0, n)
+	{
+		int x;
+		cin >> x;
+		s += x;
+	}
+	cout << s % m;
 }
 
 int main()
