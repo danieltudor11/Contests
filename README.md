@@ -49,4 +49,8 @@ LeetCode BiWeekly Contest 27: 2037/7924 (12/18)
 
 LeetCode Weekly Contest 191: 2953/13283 (12/19)
 
-LeetCode Weekly Contst 192: 1566/13805 (12/18)
+LeetCode Weekly Contest 192: 1566/13805 (12/18)
+
+Leetcode Weekly Contest 301: 744/23566 (12/18)
+
+Leetcode Weekly Contest 381: 4785/24931 (12/20)
