@@ -1,4 +1,5 @@
 # Contests
+
 Contest Name: Ranking (Score/Max Score)
 
 AtCoder Beginner Contest 158: 4146/6992 (600/2100)
@@ -54,3 +55,5 @@ LeetCode Weekly Contest 192: 1566/13805 (12/18)
 Leetcode Weekly Contest 301: 744/23566 (12/18)
 
 Leetcode Weekly Contest 381: 4785/24931 (12/20)
+
+CodeForces Round 923 (Div. 3): 8591/31852 (4/7)
