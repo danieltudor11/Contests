@@ -17,23 +17,26 @@ typedef pair<int, int> pii;
 template <typename T>
 void printVector(const T &t)
 {
-	copy(t.cbegin(), t.cend(), ostream_iterator<typename T::value_type>(cout, " "));
+    copy(t.cbegin(), t.cend(), ostream_iterator<typename T::value_type>(cout, ", "));
 }
 
 void solve()
 {
+    int n, q;
+    cin >> n >> q;
+
+    return;
 }
 
 int main()
 {
-	int t;
-	cin >> t;
+    int t;
+    cin >> t;
 
-	rep(i, 1, t + 1)
-	{
-		solve();
-		cout << endl;
-	}
-
-	return 0;
+    for (int i = 0; i < t; i++)
+    {
+        solve();
+        cout << endl;
+    }
+    return 0;
 }
