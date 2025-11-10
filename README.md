@@ -59,3 +59,5 @@ Leetcode Weekly Contest 381: 4785/24931 (12/20)
 CodeForces Round 923 (Div. 3): 8591/31852 (4/7)
 
 CodeForces Pinely Round 5: 5661/9996 (1211 points)
+
+CodeForces Round 1063 (Div. 2): 3658/13260 (1169 points)
