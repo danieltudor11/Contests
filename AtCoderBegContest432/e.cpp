@@ -1,0 +1,31 @@
+#include <iostream>
+#include <iterator>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <iomanip>
+using namespace std;
+
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<string> vs;
+typedef vector<vector<int>> vvi;
+typedef pair<int, int> pii;
+#define pb push_back
+#define rep(i, a, b) for (int i = a; i < b; i++)
+
+template <typename T>
+void printVector(const T &t)
+{
+    copy(t.cbegin(), t.cend(), ostream_iterator<typename T::value_type>(cout, " "));
+    cout << endl;
+}
+
+const int INF = 1e9;
+const ll LINF = 1e18;
+
+int main()
+{
+
+    return 0;
+}
